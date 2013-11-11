@@ -1,9 +1,15 @@
 body {
-	font-family: 'Calibri', Helvetica, Sans-Serif;
 	color: #333;
 	margin: 0;
 	padding: 0;
 }
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+	font-family: 'Calibri', Helvetica, Sans-Serif;
+}
+
 .vertical-center {
 	margin: auto;
 	position: absolute;
@@ -20,6 +26,10 @@ body {
 	font-size: 60pt;
 	color: rgb(139, 108, 183);
 	text-align: center;
+}
+
+h1 {
+	font-family: 'Pompiere', Sans-Serif, cursive;
 }
 
 .homepage .subtitle {
@@ -44,19 +54,105 @@ body {
 	font-style: italic;
 }
 
-.menu a:link {
+.homepage .menu a:link {
 	text-decoration: none;
 	color: white;
 }
-.menu a:visited{
+.homepage .menu a:visited{
 	text-decoration: none;
 	color: white;
 }
-.menu a:hover{
+.homepage .menu a:hover{
 	text-decoration: underline;
 	color: white;
 }
-.menu a:active{
+.homepage .menu a:active{
 	text-decoration: none;
 	color: white;
+}
+
+.contentpanel {
+	position: relative;
+	top: 0; left: 0;
+	width: 100%;
+	min-height: 300px;
+}
+.contentpanel .container {
+	padding: 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.contentpanel.one {
+	background-color: rgb(139,108,183);
+	color: white;
+}
+.contentpanel.two, .contentpanel.four {
+	background-color: #EEE;
+	color: #333;
+}
+.contentpanel.three {
+	background-color: rgb(94,154,210);
+	color: white;
+}
+.contentpanel.five {
+	background-color: #333;
+	color: white;
+}
+
+.pure-g-r > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.l-box {
+    padding: 0 1em;
+}
+
+.contentpage .title {
+	font-family: 'Pompiere', Sans-Serif, cursive;
+	font-size: 60pt;
+	color: rgb(139, 108, 183);
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Pompiere', Sans-Serif, cursive;
+}
+
+.contentpage .subtitle {
+	font-size: 24pt;
+	text-align: center;
+}
+
+.contentpage .menu {
+	color: rgb(94, 154, 210);
+	padding: 5px;
+	margin: 10px 0;
+}
+.contentpage .menu .menu-content {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.contentpage .menu .menu-content div {
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	font-style: italic;
+}
+
+.contentpage .menu a:link {
+	text-decoration: none;
+	color: rgb(94, 154, 210);
+}
+.contentpage .menu a:visited{
+	text-decoration: none;
+	color: rgb(94, 154, 210);
+}
+.contentpage .menu a:hover{
+	text-decoration: underline;
+	color: rgb(94, 154, 210);
+}
+.homcontentpageepage .menu a:active{
+	text-decoration: none;
+	color: rgb(94, 154, 210);
 }
