@@ -10,7 +10,7 @@
 			<div class="contentpanel">
 				<div class="container">
 					<div class="title">Pilates with Pip</div>
-					<div class="title subtitle">Physiotherapy led Pilates in Congleton, 0768612546859</div>
+					<div class="title subtitle">Physiotherapy led Pilates in Congleton, 07472684893</div>
 					<div class="menu">
 						<div class="menu-content">
 							<div><a href="#pilates">What is pilates?</a></div>
@@ -50,6 +50,10 @@
 						<div class="pure-u-1-2 l-box"><p>Classes are matwork based with each session including a warm-up and cool-down stretches. Equipment and mats are provided. Sessions cater for up to 8 people, in 6 week blocks. Sessions are flexible around planned holidays.</p>
 						<p>Sessions are suitable for post-natal, sports injuries, post-operative and general de-conditioning. Sessions will be tailored to suit your individual needs.</p>
 						</div>
+						<div class="pure-u-1-2 l-box centered">
+							<h3>Wednesdays, 6-7pm and 7-8pm</h3>
+							<h3>&#163;8 per session</h3>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -57,7 +61,43 @@
 				<a id="location"/>
 				<div class="container">
 					<h1>Location</h1>
-					<p></p>
+					<div class="pure-g-r">
+						<div class="pure-u-1-2 l-box">
+							<h3>Joanne Bayley dance studio, Congleton.</h3>
+							<p>Next to Congleton Leisure Center</p>
+							<p>Century Mill Worrall St, CW12 1DT</p>
+						</div>
+						<div class="pure-u-1-2 l-box">
+							<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+						    <script>
+						      // Enable the visual refresh
+						      google.maps.visualRefresh = true;
+
+						      var map;
+						      function initialize() {
+						        var mapOptions = {
+						          zoom: 15,
+						          panControl: false,
+						          zoomControl: false,
+						          center: new google.maps.LatLng(53.16468, -2.20805),
+						          mapTypeId: google.maps.MapTypeId.ROADMAP
+						        };
+						        map = new google.maps.Map(document.getElementById('map-canvas'),
+						            mapOptions);
+
+						        var matchMarker = new google.maps.Marker({
+						            position: new google.maps.LatLng(53.1645, -2.20805),
+						            map: map
+						        });
+
+						      }
+
+						      google.maps.event.addDomListener(window, 'load', initialize);
+
+						    </script>
+						    <div id="map-canvas"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="contentpanel five">

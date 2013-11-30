@@ -156,3 +156,11 @@ h1 {
 	text-decoration: none;
 	color: rgb(94, 154, 210);
 }
+
+#map-canvas {
+	height: 450px;
+}
+
+.centered {
+	text-align: center;
+}
