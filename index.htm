@@ -2,22 +2,125 @@
 	<head>
 		<title>Pilates with Pip</title>
 		<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'/>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/grids-min.css">
 		<link href='styles/theme.css' rel='stylesheet' type='text/css'/>
 	</head>
 	<body>
-		<div class="homepage">
-			<div class="vertical-center homecontent">
-				<div class="title">Pilates with Pip</div>
-				<div class="menu">
-					<div class="menu-content">
-						<div><a href="content.htm#pilates">What is pilates?</a></div>
-						<div><a href="content.htm#pip">Who is Pip?</a></div>
-						<div><a href="content.htm#classes">Class details</a></div>
-						<div><a href="content.htm#location">How to find us</a></div>
-						<div><a href="content.htm#contact">Contact Pip</a></div>
+		<div class="contentpage">
+			<div class="contentpanel">
+				<div class="container">
+					<div class="title">Pilates with Pip</div>
+					<div class="title subtitle">Physiotherapy led Pilates in Congleton, 07472684893</div>
+					<div class="menu">
+						<div class="menu-content">
+							<div><a href="#pilates">What is pilates?</a></div>
+							<div><a href="#pip">Who is Pip?</a></div>
+							<div><a href="#classes">Class details</a></div>
+							<div><a href="#location">How to find us</a></div>
+							<div><a href="#contact">Contact Pip</a></div>
+						</div>
 					</div>
 				</div>
-				<div class="title subtitle">Physiotherapy led Pilates in Congleton</div>
+			</div>
+			<div class="contentpanel one">
+				<a id="pilates"/>
+				<div class="container">
+					<h1>What is Pilates?</h1>
+					<p>The pilates method is a mind-body centering technique that emphasises the importance of central core stability. </p>
+					<p>The essence of physiotherapy aims to create a balanced aligned body, pilates compliments this perfectly. Matwork pilates consists of exercises performed on the mat that are designed to promote core stability, flexibility, endurance, postural and body awareness and to correct muscle imbalances.</p>
+					<p>Pilates is based on the following eight principles:</p>
+					<ol>
+						<li>Breathing &#45; focus on the breathing cycle is essential in pilates and is one of the most difficult principles for beginners.</li>
+						<li>Concerntration &#45; Pilates is a work-out for the mind and body.</li>
+						<li>Control &#45; Movement control is key when working against gravity in matwork exercise.</li>
+						<li>Centering &#45; In pilates your centre is your powerhouse. </li>
+						<li>Precision &#45; this is a long-term goal in pilates which develops with practice.</li>
+						<li>Flow &#45; pilates exercises are performed in even, continuously flowing movements</li>
+						<li>Intergrated isolation &#45; pilates builds mind-body awareness, regular pilates allows one to recognise incorrect movement patterns, isolate and correct them.</li>
+						<li>Routine &#45; as with any exercise therapy, repition lead to greater skill and benefits.</li>
+					</ol>
+				</div>
+			</div>
+			<div class="contentpanel two">
+				<a id="pip"/>
+				<div class="container">
+					<h1>Who is Pip?</h1>
+					<div class="pure-g-r">
+						<div class="pure-u-1-2 l-box">
+							<p>I am an experienced senior physiotherapist for the East Cheshire NHS trust. (HCPC PH96656)</p>
+							<p>After qualifying with a first class honours degree I have trained with the APPI to gain my Matwork pilates 1-3. Since then I have taught pilates to a wide range of clients from beginners with a wide range of weaknesses across Cheshire. </p>
+							<p>Alongside Pilates I am a keen horse-rider competing at national competitions with my noble steed Bob. I also run with Biddulph running club completing my first half marathon in Edinburgh May &#39;13. Add to this annual skiing and weekly netball, I appreciate the importance for strong underlying core stability.</p>
+						</div>
+						<div class="pure-u-1-2 l-box" style="text-align: center;">
+							<img src="pip.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contentpanel three">
+				<a id="classes"/>
+				<div class="container">
+					<h1>Class Details</h1>
+					<div class="pure-g-r">
+						<div class="pure-u-1-2 l-box"><p>Classes are matwork based with each session including a warm-up and cool-down stretches. Equipment and mats are provided. Sessions cater for up to 8 people, in 6 week blocks. Sessions are flexible around planned holidays.</p>
+						<p>Sessions are suitable for post-natal, sports injuries, post-operative and general de-conditioning. Sessions will be tailored to suit your individual needs.</p>
+						</div>
+						<div class="pure-u-1-2 l-box centered">
+							<h3>Wednesdays, 6-7pm and 7-8pm</h3>
+							<h3>&#163;8 per session</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contentpanel four">
+				<a id="location"/>
+				<div class="container">
+					<h1>Location</h1>
+					<div class="pure-g-r">
+						<div class="pure-u-1-2 l-box">
+							<h3>Joanne Bayley dance studio, Congleton.</h3>
+							<p>Next to Congleton Leisure Center</p>
+							<p>Century Mill Worrall St, CW12 1DT</p>
+						</div>
+						<div class="pure-u-1-2 l-box">
+							<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+						    <script>
+						      // Enable the visual refresh
+						      google.maps.visualRefresh = true;
+
+						      var map;
+						      function initialize() {
+						        var mapOptions = {
+						          zoom: 15,
+						          panControl: false,
+						          zoomControl: false,
+						          center: new google.maps.LatLng(53.16468, -2.20805),
+						          mapTypeId: google.maps.MapTypeId.ROADMAP
+						        };
+						        map = new google.maps.Map(document.getElementById('map-canvas'),
+						            mapOptions);
+
+						        var matchMarker = new google.maps.Marker({
+						            position: new google.maps.LatLng(53.1645, -2.20805),
+						            map: map
+						        });
+
+						      }
+
+						      google.maps.event.addDomListener(window, 'load', initialize);
+
+						    </script>
+						    <div id="map-canvas"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contentpanel five">
+				<a id="contact"/>
+				<div class="container">
+					<h1>Contact Details</h1>
+					<p></p>
+				</div>
 			</div>
 		</div>
 	</body>
